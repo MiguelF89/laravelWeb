@@ -18,7 +18,7 @@
         <h2>Salvar Contato</h2>
         <form action="{{ route('contato.salvar') }}" method="POST">
             @csrf
-            <button type="submit">Salvar Contato</button>
+            <button type="submit">Salvar</button>
         </form>
     </body>
 
